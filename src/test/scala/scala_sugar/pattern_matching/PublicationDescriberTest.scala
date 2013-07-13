@@ -1,6 +1,6 @@
 package scala_sugar.pattern_matching
 
-import ReadableDescriber.describe
+import PublicationDescriber.describe
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith
 import java.net.URL
 
 @RunWith(classOf[JUnitRunner])
-class ReadableDescriberTest extends FunSuite with ShouldMatchers {
+class PublicationDescriberTest extends FunSuite with ShouldMatchers {
 
     test("Should dislike Twilight series") {
         evaluating(describe(Book("Stephanie Meyer", "Twilight"))) should produce[UnsupportedOperationException]

@@ -2,10 +2,10 @@ package scala_sugar.pattern_matching
 
 import java.net.URL
 
-object ReadableDescriber {
+object PublicationDescriber {
 
-    def describe(readable: Readable) =
-        readable match {
+    def describe(publication: Publication) =
+        publication match {
             case book: Book if book.title.contains("Twilight") =>
                 throw new UnsupportedOperationException
             case Book("J.R.R. Tolkien", _) =>
@@ -19,9 +19,9 @@ object ReadableDescriber {
         }
 }
 
-sealed trait Readable
+sealed trait Publication
 
-case class Book(author: String, title: String) extends Readable
+case class Book(author: String, title: String) extends Publication
 
-case class BlogEntry(author: String, title: String, url: URL) extends Readable
+case class BlogEntry(author: String, title: String, url: URL) extends Publication
     
