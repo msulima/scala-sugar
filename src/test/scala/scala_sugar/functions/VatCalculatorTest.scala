@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.functions
+package scala_sugar.functions
 
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers

@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.implicits
+package scala_sugar.implicits
 
 import java.util.{Locale, Calendar}
 import java.text.SimpleDateFormat

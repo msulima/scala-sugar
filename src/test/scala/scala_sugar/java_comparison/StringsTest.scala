@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.java_comparison
+package scala_sugar.java_comparison
 
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers

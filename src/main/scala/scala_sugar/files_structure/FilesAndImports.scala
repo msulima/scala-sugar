@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.files_structure
+package scala_sugar.files_structure
 
 import java.util
 

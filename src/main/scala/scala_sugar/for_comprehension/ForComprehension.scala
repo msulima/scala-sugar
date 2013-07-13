@@ -1,7 +1,7 @@
-package com.futureprocessing.scala_sugar.for_comprehension
+package scala_sugar.for_comprehension
 
 import scala.collection.SortedMap
-import com.futureprocessing.scala_sugar.pattern_matching.Book
+import scala_sugar.pattern_matching.Book
 
 object ForComprehension {
 

@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.implicits
+package scala_sugar.implicits
 
 import org.scalatest.{OneInstancePerTest, FunSuite}
 import org.scalatest.matchers.ShouldMatchers

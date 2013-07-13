@@ -1,10 +1,10 @@
-package com.futureprocessing.scala_sugar.for_comprehension
+package scala_sugar.for_comprehension
 
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.FunSuite
 import org.scalatest.matchers.ShouldMatchers
-import com.futureprocessing.scala_sugar.pattern_matching.Book
+import scala_sugar.pattern_matching.Book
 
 @RunWith(classOf[JUnitRunner])
 class ForComprehensionTest extends FunSuite with ShouldMatchers {

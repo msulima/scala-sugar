@@ -1,4 +1,4 @@
-package com.futureprocessing.scala_sugar.pattern_matching
+package scala_sugar.pattern_matching
 
 import ReadableDescriber.describe
 import org.scalatest.FunSuite
