@@ -23,9 +23,10 @@ class PublicationDescriberTest extends FunSuite with ShouldMatchers {
     }
 
     test("Should describe blog entries") {
-        val readable = BlogEntry("Marcin Drobik", "Auto Load Dispatcher Timer",
-            new URL("http://www.future-processing.pl/blog/639/"))
-        val description = "Auto Load Dispatcher Timer by Marcin Drobik published at http://www.future-processing.pl/blog/639/"
+        val readable = BlogEntry("Sebastián Ortega", "Language terseness: comparing Java and Scala",
+            new URL("http://sortega.github.io/development/2013/06/22/terseness/"))
+        val description = "Language terseness: comparing Java and Scala by Sebastián Ortega " +
+            "published at http://sortega.github.io/development/2013/06/22/terseness/"
         describe(readable) should be(description)
     }
 }
