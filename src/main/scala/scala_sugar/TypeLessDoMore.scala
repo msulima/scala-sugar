@@ -9,9 +9,14 @@ object TypeLessDoMore {
     @BeanProperty
     val age = 30 // age: Int
 
-    val weapons = List("WaltherPPK", "Laser Watch")
     // weapons: List[String]
-    val drinks  = Map("martini" -> true, "harnaś" -> false) // drinks: Map[String, Boolean]
+    val weapons = List("WaltherPPK", "Laser Watch")
+
+    // drinks: Map[String, Boolean]
+    val drinks = Map(
+        "martini" -> true,
+        "harnaś" -> false
+    )
 
     def introduceYourself(surname: String) = // def introduceYourself(surname: String): String
         s"My name is $surname, $name $surname"
