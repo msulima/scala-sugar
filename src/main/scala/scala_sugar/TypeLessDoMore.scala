@@ -18,7 +18,7 @@ object TypeLessDoMore {
         "harnaś" -> false
     )
 
-    def introduceYourself(surname: String) = // def introduceYourself(surname: String): String
+    def introduceYourself(surname: String = "Bond") = // def introduceYourself(surname: String): String
         s"My name is $surname, $name $surname"
 
     def getFavouriteWeapons(howMany: Int) =

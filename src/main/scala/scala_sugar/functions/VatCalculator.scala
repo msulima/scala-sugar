@@ -2,16 +2,16 @@ package scala_sugar.functions
 
 object VatCalculator {
 
-    val defaultVat: (Int) => Int =
+    private val defaultVat: (Int) => Int =
         createCalculator(23)
 
-    val booksVat: (Int) => Int =
+    private val booksVat: (Int) => Int =
         createCalculator(5)
 
     private def createCalculator(taxValue: Int)(price: Int) =
         price * taxValue / 100
 
-    def mailVat(price: Int) =
+    private def mailVat(price: Int) =
         0
 
     val vatCalculatorPerProductType: Map[String, (Int) => Int] = Map(
